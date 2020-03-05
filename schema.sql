@@ -1,8 +1,8 @@
-DROP DATABASE  IF EXISTS amazonstore;
+DROP DATABASE  IF EXISTS bamazon;
 
-CREATE DATABASE amazonstore;
+CREATE DATABASE bamazon;
 
-USE amazonstore; 
+USE bamazon; 
 
 CREATE TABLE products(
     item_id int not null auto_increment,
@@ -10,6 +10,6 @@ CREATE TABLE products(
     department varchar(150) not null,
     price decimal(5,2) not null,
     quantity int not null,
-    primary key(item_id);
+    primary key(item_id)
 ); 
 
