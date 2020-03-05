@@ -1,0 +1,25 @@
+
+  "name": "AmazonStore",
+  "version": "1.0.0",
+  "description": "Amazonish store front with SQL",
+  "main": "amazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylan-Myers/AmazonStore"
+  },
+  "keywords": [],
+  "author": "Dylan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylan-Myers/AmazonStore/issues"
+  },
+  "homepage": "https://github.com/Dylan-Myers/AmazonStore#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^7.0.6",
+    "mysql": "^2.18.1"
+  }
+}

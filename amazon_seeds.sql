@@ -1,0 +1,1 @@
+insert into products(product_name, department, price, quantity)values("airpod", "audio", 150.00)
